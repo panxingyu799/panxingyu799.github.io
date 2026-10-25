@@ -12,106 +12,107 @@
   <header class="site-header">
     <button class="menu" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" aria-label="Primary navigation">
-      <a href="#top">About</a><a href="#research">Research</a><a href="#publications">Publications</a>
-      <a href="#education">Education</a><a href="#skills">Skills</a>
+      <a href="#top">About</a><a href="#education">Education</a><a href="#research">Research</a>
+      <a href="#previous">Previous Research</a><a href="#publications">Publications & Skills</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero section-shell" aria-labelledby="hero-title">
+      <img class="portrait-photo reveal" src="assets/pxy.png" alt="Portrait of Xingyu Pan">
       <div class="hero-copy reveal">
-        <p class="eyebrow">Cognitive neuroscience · PhD researcher</p>
         <h1 id="hero-title">Xingyu Pan</h1>
-        <p class="lede">I study how action and cognition shape one another, combining behavioral experiments with EEG, TMS, eye tracking, and neuroimaging.</p>
+        <h2>About me</h2>
+        <div class="about-copy">
+          <p>I am a PhD student in Cognitive Neuroscience at Beijing Normal University, supervised by Dr. <a href="https://basaps.bnu.edu.cn/szdw/zrjs/zj/37feb53c212f427d885723597f1403b8.htm" target="_blank" rel="noreferrer">Jing Huang</a>.</p>
+          <p>My research investigates the cognitive and neural mechanisms underlying interactions between action and cognition, with a focus on:</p>
+          <ul class="research-focus">
+            <li><strong>Visuomotor Integration and Visual Working Memory:</strong> I use moderation analysis to investigate how individual differences in visuomotor integration influence the relationship between physical activity and visual working memory.</li>
+            <li><strong>Cortical Contributions to Visual Working Memory:</strong> I use retro-cue paradigms and TMS–EEG to investigate how attention- and motor-related cortical regions contribute to visual working-memory processing.</li>
+            <li><strong>Neural Dynamics of Perceptual Learning and Transfer:</strong> I use tensor decomposition to analyze EEG data and investigate how stimulus-specific processing demands shape neural plasticity and the transfer of perceptual learning.</li>
+          </ul>
+        </div>
         <div class="actions">
-          <a class="button primary" href="#research">Explore my research</a>
           <a class="button secondary" href="assets/Xingyu-Pan-CV.pdf" download>Download CV</a>
         </div>
         <p class="location">Beijing Normal University · Zhuhai, China</p>
         <a class="home-email" href="mailto:pxy1999799@gmail.com">pxy1999799@gmail.com</a>
       </div>
-      <div class="portrait-placeholder reveal" role="img" aria-label="Profile portrait placeholder">
-        <span>XP</span><p>Portrait<br>coming soon</p>
-      </div>
-      <div class="hero-about reveal">
-        <h2>About me</h2>
-        <p>I am a PhD student in Cognitive Neuroscience at Beijing Normal University, supervised by Dr. <a href="https://basaps.bnu.edu.cn/szdw/zrjs/zj/37feb53c212f427d885723597f1403b8.htm" target="_blank" rel="noreferrer">Jing Huang</a>. My research examines bidirectional interactions between action and cognition: how sensorimotor experience shapes cognitive processing, and how internal representations guide subsequent action.</p>
-        <h3>Research interests</h3>
-        <div class="tag-list" aria-label="Research interests"><span>Action–cognition interaction</span><span>Visual working memory</span><span>Visuomotor integration</span><span>Perceptual learning</span><span>EEG & TMS</span></div>
+    </section>
+
+    <section id="education" class="section-shell education-section">
+      <div><h2>Education</h2></div>
+      <div class="timeline reveal">
+        <article><time>2025–present</time><h3>PhD in Psychology</h3><p><a href="https://psych.bnu.edu.cn/" target="_blank" rel="noreferrer">Faculty of Psychology, Beijing Normal University ↗</a></p><p>Cognitive Neuroscience · Supervisor: <a href="https://basaps.bnu.edu.cn/szdw/zrjs/zj/37feb53c212f427d885723597f1403b8.htm" target="_blank" rel="noreferrer">Dr. Jing Huang ↗</a></p></article>
+        <article><time>2022–2025</time><h3>MSc in Psychology</h3><p><a href="https://psy.bsu.edu.cn/" target="_blank" rel="noreferrer">School of Psychology, Beijing Sport University ↗</a></p><p>Cognitive Neuroscience · Supervisors: <a href="https://psy.bsu.edu.cn/szdw/js/zy/index.htm" target="_blank" rel="noreferrer">Prof. Yu Zhang ↗</a> · <a href="https://lcyxy.hznu.edu.cn/c/2023-02-28/2806412.shtml" target="_blank" rel="noreferrer">Associate Prof. Jie Li ↗</a></p></article>
+        <article><time>2017–2021</time><h3>BSc in Management</h3><p><a href="https://cem.cau.edu.cn/" target="_blank" rel="noreferrer">College of Economics and Management, China Agricultural University ↗</a></p></article>
       </div>
     </section>
 
     <section id="research" class="research-section">
-      <div class="section-shell section-heading"><p class="section-number">01</p><h2>Research projects</h2><p>Current doctoral work</p></div>
+      <div class="section-shell section-heading"><p class="section-number">01</p><h2>Research projects</h2><p class="section-context">current work</p></div>
 
       <article class="project section-shell reveal">
         <div class="project-index">01</div><div class="project-copy">
-          <p class="eyebrow">TMS–EEG · Visual working memory</p><h3>Parietal and Motor Cortical Contributions to Visual Working Memory</h3>
-          <p>How do parietal and motor cortical regions contribute to visual working memory under different states of attentional prioritization?</p>
-          <p>Using a retro-cue working-memory task, I designed an online TMS study targeting the right posterior parietal cortex and primary motor cortex. An exploratory behavioral study revealed distinct response-time patterns following stimulation at the two sites, with preliminary evidence of cue-dependent changes in recall precision after motor-cortex stimulation. Concurrent TMS–EEG experiments are now examining the corresponding neural dynamics.</p>
-          <dl><div><dt>Approach</dt><dd>Retro-cue task, online TMS, concurrent TMS–EEG</dd></div><div><dt>Status</dt><dd>Behavioral study completed; TMS–EEG data collection in progress</dd></div></dl>
-        </div>
-        <div class="figure-stack">
-          <figure><img src="assets/experiment-3.png" alt="TMS timing and stimulation sites over posterior parietal and motor cortex"><figcaption><strong>Stimulation timing and cortical targets.</strong> Conditions: parietal cortex at 10 Hz, motor cortex at 10 Hz, and sham at 10 Hz. Stimulation begins 500 ms after retro-cue onset and precedes the response period.</figcaption></figure>
-          <figure><img src="assets/experiment-2.png" alt="Retro-cue visual working-memory task sequence"><figcaption><strong>Retro-cue working-memory paradigm.</strong> Memory array, retention interval, valid or neutral retro-cue, delay, and recall response. English labels will replace the remaining source-language annotations in the next figure revision.</figcaption></figure>
+          <h3>Visuomotor Integration Moderates the Effect of Physical Activity on Visual Working Memory</h3>
+          <p class="project-question"><em>Can sensorimotor functioning explain individual differences in how habitual physical activity translates into higher cognitive functioning?</em></p>
+          <div class="project-detail"><h4>My Role</h4><p>Conducted behavioral data analysis and robust moderation modeling; led manuscript preparation and submission as first author.</p></div>
+          <div class="project-detail key-methods"><h4>Key Methods</h4><p>Robust moderation analysis</p></div>
+          <div class="project-detail"><h4>Main Findings</h4><p>Building on our previous research (<a href="https://doi.org/10.3389/fnins.2023.1146465" target="_blank" rel="noreferrer">Yuan et al., 2023</a>), we investigated the role of visuomotor integration in the relationship between physical activity and visual working memory. Moderation analyses suggested that WM-guided action precision may serve as a boundary condition for the association between physical activity and visual working memory.</p></div>
+          <p class="project-output"><strong>Output</strong><span>First-author manuscript submitted</span></p>
         </div>
       </article>
 
       <article class="project section-shell reveal">
         <div class="project-index">02</div><div class="project-copy">
-          <p class="eyebrow">Physical activity · Visuomotor integration</p><h3>Visuomotor Integration Moderates the Effect of Physical Activity on Visual Working Memory</h3>
-          <p>Does visuomotor functioning change the relationship between habitual physical activity and visual working memory?</p>
-          <p>I developed this project from earlier findings linking habitual exercise to working-memory precision. Robust regression and moderation analyses showed that working-memory-guided visuomotor error moderated the association between moderate-to-vigorous physical activity and working-memory capacity. The result suggests that visuomotor functioning may define an important individual boundary condition in the physical activity–cognition relationship.</p>
-          <dl><div><dt>Approach</dt><dd>Physical activity assessment, visuomotor tasks, visual working memory, robust moderation analysis</dd></div><div><dt>Output</dt><dd>First-author manuscript submitted</dd></div></dl>
+          <h3>Investigating the Contributions of Different Cortical Regions to Visual Working Memory Using TMS</h3>
+          <p class="project-question"><em>Ongoing Research | TMS–EEG · Visual Working Memory</em></p>
+          <p>Building on our group's findings on retrospective attentional strengthening of WM representations (<a href="https://doi.org/10.1016/j.neuroimage.2023.119902" target="_blank" rel="noreferrer">Li et al., 2023</a>), this project extends the investigation to attention- and motor-related cortical regions.</p>
+          <div class="project-detail"><h4>My Role</h4><p>Contributed to research discussions and experimental setup; currently conducting preliminary analyses of concurrent TMS–EEG data.</p></div>
+          <div class="project-detail key-methods"><h4>Key Methods</h4><p>Concurrent TMS–EEG</p></div>
+          <div class="project-detail"><h4>Main Findings</h4><p>The exploratory behavioral study revealed differences in WM performance across stimulation conditions. Ongoing TMS–EEG experiments investigate WM-related neural dynamics under different retrospective cueing conditions.</p></div>
         </div>
-        <figure class="wide-figure"><img src="assets/experiment-1.png" alt="Three-part protocol for visuomotor and working-memory assessment"><figcaption><strong>Experimental protocol.</strong> The study combines visuomotor calibration and recall measures with a retro-cue visual-working-memory task to quantify both motor error and memory capacity.</figcaption></figure>
       </article>
 
-      <article class="project section-shell reveal">
+      <article class="project project-with-figure section-shell reveal">
         <div class="project-index">03</div><div class="project-copy">
-          <p class="eyebrow">Perceptual learning · EEG</p><h3>Format-Specific Processing Demands Determine Transfer of Perceptual Learning</h3>
-          <p>Does transfer-related plasticity depend on the processing demands of a task?</p>
-          <p>Participants trained on line- or dot-based orientation discrimination. Dot training produced more complete behavioral transfer, whereas line training produced partial transfer. Tensor decomposition revealed distinct neural patterns for direct readout and relational integration, alongside training-related alpha-band changes with different temporal and spatial profiles. Together, the findings indicate that transfer-related plasticity depends on format-specific processing demands.</p>
-          <dl><div><dt>Approach</dt><dd>Orientation discrimination training, EEG, time–frequency analysis, tensor decomposition</dd></div><div><dt>Output</dt><dd>First-author manuscript submitted; oral presentation at ESCoP–CoPM 2026</dd></div></dl>
+          <h3>Format-Specific Processing Demands Determine Transfer of Perceptual Learning</h3>
+          <p class="project-question"><em>Does transfer-related plasticity depend on the processing demands of a task?</em></p>
+          <div class="project-detail"><h4>My Role</h4><p>Conducted EEG data analysis, including time–frequency analysis and tensor decomposition; wrote the manuscript as first author.</p></div>
+          <div class="project-detail key-methods"><h4>Key Methods</h4><p>Time–frequency analysis · tensor decomposition</p></div>
+          <div class="project-detail"><h4>Main Findings</h4><p>Perceptual training with line and dot stimuli produced different degrees of behavioral transfer. EEG tensor decomposition identified distinct training-related neural components for the two formats, both involving alpha-band activity but differing in their temporal and spatial characteristics.</p></div>
+          <p class="project-output"><strong>Outputs</strong><span>First-author manuscript submitted | Oral presentation at Joint ESCoP–CoPM Meeting 2026</span></p>
         </div>
-        <div class="figure-grid">
-          <figure><img src="assets/perceptual-design.png" alt="Experimental design comparing line and dot perceptual training"><figcaption><strong>Experimental design and behavioral transfer.</strong> Pre- and post-tests assessed both formats around format-specific training.</figcaption></figure>
-          <figure><img src="assets/tensor-analysis.png" alt="Tensor decomposition workflow for epoched EEG data"><figcaption><strong>EEG analysis workflow.</strong> Epoched EEG data were organized into a multidimensional tensor and decomposed into temporal, spectral, spatial, and condition modes.</figcaption></figure>
-          <figure class="conference-figure"><img src="assets/conference-1.jpg" alt="Xingyu Pan presenting perceptual learning research at the Joint ESCoP–CoPM Meeting 2026"><figcaption><strong>Joint ESCoP–CoPM Meeting 2026.</strong> Oral presentation of this project in Hangzhou, China.</figcaption></figure>
+        <div class="project-single-figure">
+          <figure><img src="assets/tensor-analysis.png" alt="Tensor decomposition workflow for epoched EEG data"></figure>
         </div>
       </article>
     </section>
 
     <section class="section-shell" id="previous">
-      <div class="section-heading compact"><p class="section-number">02</p><h2>Previous research</h2></div>
+      <div class="section-heading previous-heading"><p class="section-number">02</p><h2>Previous research</h2><p class="previous-context">Research during my master’s studies</p></div>
       <div class="card-grid">
         <article class="card reveal"><p class="eyebrow">Master’s thesis · fNIRS hyperscanning</p><h3>Attentional Allocation in Cooperative Tasks Among Athletes</h3><p>I developed a dyadic paradigm adapted from multiple-object tracking. Cooperative performance increased functional connectivity and inter-brain synchrony in the prefrontal cortex and right temporoparietal junction compared with parallel task performance.</p></article>
-        <article class="card reveal"><p class="eyebrow">Eye tracking · Dynamic vision · 2023–2024</p><h3>Goal-Directed Attention in Dynamic Visual Tracking</h3><p>I contributed to experiments on goal-directed tracking. Eye-movement patterns shifted from predominantly central fixation to alternating fixations between targets as the number of tracked objects increased.</p></article>
+        <article class="card reveal"><p class="eyebrow">Eye tracking · Dynamic attention · 2023–2024</p><h3>Goal-Directed Attention in Dynamic Visual Tracking</h3><p>I contributed to experiments on goal-directed tracking. Eye-movement patterns shifted from predominantly central fixation to alternating fixations between targets as the number of tracked objects increased.</p></article>
       </div>
     </section>
 
-    <section id="publications" class="section-shell split-section">
-      <div><p class="section-number">03</p><h2>Publications</h2></div>
+    <section id="publications" class="section-shell academic-section">
+      <div class="academic-heading"><p class="section-number">03</p><h2>Publications and Research Skills</h2></div>
       <div class="publication-list reveal">
+        <h2>Publications</h2>
         <h3>Manuscripts submitted</h3>
         <p><strong>Pan, X.</strong>, Fan, T., Wang, F., Zhou, T., Song, Y., & Huang, J. Format-Specific Processing Demands Determine Transfer of Perceptual Learning.</p>
         <p><strong>Pan, X.</strong>, Liu, L., Long, Y., Li, X., Li, Z., Fan, T., & Huang, J. Visuomotor Integration Moderates the Effect of Physical Activity on Visual Working Memory in Young Adults.</p>
         <h3>Conference papers</h3>
-        <p><strong>Pan, X.</strong>, Fan, T., Wang, F., Zhou, T., Song, Y., & Huang, J. (2026). From Sensory Tuning to Representational Convergence: Multidimensional EEG Dynamics of Visual Perceptual Learning. Joint ESCoP–CoPM Meeting 2026. Oral presentation.</p>
-        <p><strong>Pan, X.</strong>, Li, J., & Zhang, Y. (2023). The Influence of Depth on Visual Attention in 3D Space. 25th National Academic Congress of Psychology, China. <a href="https://doi.org/10.26914/c.cnkihy.2023.057661" target="_blank" rel="noreferrer">DOI ↗</a></p>
+        <p><strong>Pan, X.</strong>, Fan, T., Wang, F., Zhou, T., Song, Y., & Huang, J. (2026). From Sensory Tuning to Representational Convergence: Multidimensional EEG Dynamics of Visual Perceptual Learning. <em>Joint ESCoP–CoPM Meeting 2026</em>. Oral presentation.</p>
+        <p><strong>Pan, X.</strong>, Li, J., & Zhang, Y. (2023). The Influence of Depth on Visual Attention in 3D Space. <em>25th National Academic Congress of Psychology</em>, China. <a href="https://doi.org/10.26914/c.cnkihy.2023.057661" target="_blank" rel="noreferrer">DOI ↗</a></p>
+      </div>
+      <div id="skills" class="research-skills reveal">
+        <h2>Research skills</h2>
+        <div class="skills-grid"><div><h3>Data acquisition</h3><p>EEG · Eye tracking · fNIRS hyperscanning</p></div><div class="data-analysis"><h3>Data Analysis</h3><p><strong>EEG:</strong> ERP · Time–Frequency Analysis · Tensor Decomposition</p><p><strong>Eye Tracking:</strong> Eye-Movement Analysis</p><p><strong>fNIRS:</strong> Functional Connectivity · Inter-Brain Synchrony</p></div><div><h3>Programming</h3><p>MATLAB · R</p></div></div>
       </div>
     </section>
-
-    <section id="education" class="section-shell split-section">
-      <div><p class="section-number">04</p><h2>Education</h2></div>
-      <div class="timeline reveal">
-        <article><time>2025–present</time><h3>PhD in Psychology</h3><p>Beijing Normal University · Cognitive Neuroscience</p><p>Supervisor: <a href="https://basaps.bnu.edu.cn/szdw/zrjs/zj/37feb53c212f427d885723597f1403b8.htm" target="_blank" rel="noreferrer">Dr. Jing Huang ↗</a></p></article>
-        <article><time>2022–2025</time><h3>MSc in Psychology</h3><p>Beijing Sport University · Cognitive Neuroscience</p><p>Supervisor: <a href="https://psy.bsu.edu.cn/szdw/js/zy/index.htm" target="_blank" rel="noreferrer">Prof. Yu Zhang ↗</a></p></article>
-        <article><time>2017–2021</time><h3>BSc in Management</h3><p>China Agricultural University</p></article>
-      </div>
-    </section>
-
-    <section id="skills" class="section-shell skills-section"><p class="section-number">05</p><h2>Skills</h2><div class="skills-grid reveal"><div><h3>Data acquisition</h3><p>EEG · Eye tracking · fNIRS hyperscanning</p></div><div><h3>Analysis</h3><p>ERP · Time–frequency analysis · Tensor decomposition · Functional connectivity · Inter-brain synchrony</p></div><div><h3>Programming</h3><p>MATLAB · R · JavaScript</p></div></div></section>
   </main>
   <footer class="section-shell"><p>© <span id="year"></span> Xingyu Pan</p><a href="#top">Back to top ↑</a></footer>
 </body>
